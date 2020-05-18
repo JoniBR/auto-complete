@@ -11,12 +11,12 @@ const getHighlightedSearchTerm = (text, searchTerm) => {
         </React.Fragment>
     )
 }
-  
 
 
-const ListItem = ({text, searchTerm , handleItemClick}) => (
+
+const ListItem = ({ text, searchTerm, handleItemClick }) => (
     <div onClick={() => handleItemClick(text)} className='list-item'>
-    {searchTerm ? getHighlightedSearchTerm(text,searchTerm) : text}
+        {searchTerm ? getHighlightedSearchTerm(text, searchTerm) : text}
     </div>
 )
 

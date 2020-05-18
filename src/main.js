@@ -3,6 +3,6 @@ import ReactDOM from "react-dom";
 import AutoComplete from "./Components/AutoComplete";
 
 ReactDOM.render(
-  <AutoComplete/>,
+  <AutoComplete />,
   document.getElementById('mount')
 );

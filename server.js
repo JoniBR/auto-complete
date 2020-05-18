@@ -20,6 +20,6 @@ app.use(
 
 app.use(express.static(__dirname + "/www"));
 
-const server = app.listen(3000, function() {
+const server = app.listen(3000, function () {
   console.log(`running on http://localhost:3000`);
 });
