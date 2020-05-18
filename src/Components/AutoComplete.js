@@ -10,7 +10,8 @@ class AutoComplete extends Component {
     this.state = {
       searchTerm: '',
       pokemonList : [],
-      showMenu:true
+      showMenu:true,
+      selected : ''
     };
   }
   
@@ -68,6 +69,7 @@ class AutoComplete extends Component {
           {this.state.pokemonList.map((pokemon, i) => <ListItem text={pokemon} searchTerm={this.state.searchTerm} key={i} handleItemClick={this.handleItemClick}/>)}
           </div>
           : <div className='no-results'>No Results...</div>)}
+        {!this.state.showMenu ?  `You've selected ${this.state.searchTerm}!` : ''}
       </div>
     );
   }

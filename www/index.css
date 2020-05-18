@@ -9,30 +9,31 @@ html *{
     font-weight: 600;
 }
 .no-results{
-    margin-left: 50%;
     color:red;
 }
 .main {
-        width: 100%;
+    width: 100%;
 
 }
 .input {
-  width: 100%;
-  padding: 12px 20px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  font-size: larger;
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: larger;
 }
 .menu{
     max-height: 15%;
     overflow-x: hidden;
     overflow-y: scroll;
+    border: 1px solid #ccc;
+    max-width: fit-content;
 }
 
 .list-item{
-    max-width: 90%;
+    min-width: 50rem;
     margin-right: 50%;
     border: 1px solid #ccc;
-    padding: 1%;rgb(92, 22, 22)
+    padding: 1%;
 }
