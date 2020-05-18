@@ -1,0 +1,38 @@
+
+html *{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.highlighted {
+    color: #ff6600;
+    font-weight: 600;
+}
+.no-results{
+    margin-left: 50%;
+    color:red;
+}
+.main {
+        width: 100%;
+
+}
+.input {
+  width: 100%;
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: larger;
+}
+.menu{
+    max-height: 15%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.list-item{
+    max-width: 90%;
+    margin-right: 50%;
+    border: 1px solid #ccc;
+    padding: 1%;rgb(92, 22, 22)
+}
